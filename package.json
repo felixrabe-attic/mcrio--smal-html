@@ -1,1 +1,37 @@
-{}
+{
+  "name": "smal-html",
+  "version": "0.0.0",
+  "description": "Convert SMAL to HTML",
+  "main": "./lib",
+  "scripts": {
+    "prepublish": "gulp build",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcrio/smal-html.git"
+  },
+  "keywords": [
+    "html",
+    "smal"
+  ],
+  "author": "Felix Rabe <felix@rabe.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcrio/smal-html/issues"
+  },
+  "homepage": "https://github.com/mcrio/smal-html",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "coffee-script": "^1.7.1",
+    "gulp": "^3.8.1",
+    "gulp-coffee": "^2.0.1",
+    "gulp-mocha": "^0.4.1",
+    "gulp-util": "^2.2.17",
+    "rimraf": "^2.2.8"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "smal": "^0.2.0"
+  }
+}

@@ -1,0 +1,219 @@
+[
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Column 1",
+          "omitBlank": false,
+          "columnName": "Column 1",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Attribute Name\tElements\tDescription",
+                "l": "Attribute Name\tElements\tDescription"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Attribute at index 1 based on column Column 1 using expression jython:return value.split('\\t')[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "Attribute",
+    "columnInsertIndex": 1,
+    "baseColumnName": "Column 1",
+    "expression": "jython:return value.split('\\t')[0]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Tags at index 1 based on column Column 1 using expression jython:return value.split('\\t')[1]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "Tags",
+    "columnInsertIndex": 1,
+    "baseColumnName": "Column 1",
+    "expression": "jython:return value.split('\\t')[1]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "Attribute",
+      "Tags"
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Tags using expression jython:return \"[]\"",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Tags",
+          "omitBlank": false,
+          "columnName": "Tags",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Global attribute",
+                "l": "Global attribute"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Tags",
+    "expression": "jython:return \"[]\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column Tags",
+    "columnName": "Tags",
+    "keyColumnName": "Attribute",
+    "separator": ",",
+    "mode": "plain"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Tags using expression jython:return value[1:-1]",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": true,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Tags",
+          "omitBlank": false,
+          "columnName": "Tags",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "[]",
+                "l": "[]"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Tags",
+    "expression": "jython:return value[1:-1]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column Attribute",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Attribute"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Tags using expression jython:return '*'",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Tags",
+          "omitBlank": false,
+          "columnName": "Tags",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "[]",
+                "l": "[]"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Tags",
+    "expression": "jython:return '*'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "Tags",
+      "Attribute"
+    ]
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Tags to Tag",
+    "oldColumnName": "Tags",
+    "newColumnName": "Tag"
+  },
+  {
+    "op": "core/row-reorder",
+    "description": "Reorder rows",
+    "mode": "record-based",
+    "sorting": {
+      "criteria": [
+        {
+          "reverse": false,
+          "caseSensitive": false,
+          "column": "Tags",
+          "valueType": "string",
+          "blankPosition": 2,
+          "errorPosition": 1
+        },
+        {
+          "reverse": false,
+          "caseSensitive": false,
+          "column": "Tag",
+          "valueType": "string",
+          "blankPosition": 2,
+          "errorPosition": 1
+        }
+      ]
+    }
+  }
+]

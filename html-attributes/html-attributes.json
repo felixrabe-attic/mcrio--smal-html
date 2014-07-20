@@ -1,0 +1,1048 @@
+{
+  "rows" : [
+    {
+      "Tag" : "*",
+      "Attribute" : "accesskey"
+    },
+    {
+      "Tag" : "*",
+      "Attribute" : "class"
+    },
+    {
+      "Tag" : "*",
+      "Attribute" : "contenteditable"
+    },
+    {
+      "Tag" : "*",
+      "Attribute" : "contextmenu"
+    },
+    {
+      "Tag" : "*",
+      "Attribute" : "data-*"
+    },
+    {
+      "Tag" : "*",
+      "Attribute" : "dir"
+    },
+    {
+      "Tag" : "*",
+      "Attribute" : "draggable"
+    },
+    {
+      "Tag" : "*",
+      "Attribute" : "dropzone"
+    },
+    {
+      "Tag" : "*",
+      "Attribute" : "hidden"
+    },
+    {
+      "Tag" : "*",
+      "Attribute" : "id"
+    },
+    {
+      "Tag" : "*",
+      "Attribute" : "itemprop"
+    },
+    {
+      "Tag" : "*",
+      "Attribute" : "lang"
+    },
+    {
+      "Tag" : "*",
+      "Attribute" : "spellcheck"
+    },
+    {
+      "Tag" : "*",
+      "Attribute" : "style"
+    },
+    {
+      "Tag" : "*",
+      "Attribute" : "tabindex"
+    },
+    {
+      "Tag" : "*",
+      "Attribute" : "title"
+    },
+    {
+      "Tag" : "a",
+      "Attribute" : "download"
+    },
+    {
+      "Tag" : "a",
+      "Attribute" : "href"
+    },
+    {
+      "Tag" : "a",
+      "Attribute" : "hreflang"
+    },
+    {
+      "Tag" : "a",
+      "Attribute" : "media"
+    },
+    {
+      "Tag" : "a",
+      "Attribute" : "ping"
+    },
+    {
+      "Tag" : "a",
+      "Attribute" : "rel"
+    },
+    {
+      "Tag" : "a",
+      "Attribute" : "shape"
+    },
+    {
+      "Tag" : "a",
+      "Attribute" : "target"
+    },
+    {
+      "Tag" : "applet",
+      "Attribute" : "align"
+    },
+    {
+      "Tag" : "applet",
+      "Attribute" : "alt"
+    },
+    {
+      "Tag" : "applet",
+      "Attribute" : "code"
+    },
+    {
+      "Tag" : "applet",
+      "Attribute" : "codebase"
+    },
+    {
+      "Tag" : "area",
+      "Attribute" : "alt"
+    },
+    {
+      "Tag" : "area",
+      "Attribute" : "coords"
+    },
+    {
+      "Tag" : "area",
+      "Attribute" : "download"
+    },
+    {
+      "Tag" : "area",
+      "Attribute" : "href"
+    },
+    {
+      "Tag" : "area",
+      "Attribute" : "hreflang"
+    },
+    {
+      "Tag" : "area",
+      "Attribute" : "media"
+    },
+    {
+      "Tag" : "area",
+      "Attribute" : "ping"
+    },
+    {
+      "Tag" : "area",
+      "Attribute" : "rel"
+    },
+    {
+      "Tag" : "area",
+      "Attribute" : "shape"
+    },
+    {
+      "Tag" : "area",
+      "Attribute" : "target"
+    },
+    {
+      "Tag" : "audio",
+      "Attribute" : "autoplay"
+    },
+    {
+      "Tag" : "audio",
+      "Attribute" : "buffered"
+    },
+    {
+      "Tag" : "audio",
+      "Attribute" : "controls"
+    },
+    {
+      "Tag" : "audio",
+      "Attribute" : "loop"
+    },
+    {
+      "Tag" : "audio",
+      "Attribute" : "preload"
+    },
+    {
+      "Tag" : "audio",
+      "Attribute" : "src"
+    },
+    {
+      "Tag" : "base",
+      "Attribute" : "href"
+    },
+    {
+      "Tag" : "base",
+      "Attribute" : "target"
+    },
+    {
+      "Tag" : "basefont",
+      "Attribute" : "color"
+    },
+    {
+      "Tag" : "bgsound",
+      "Attribute" : "loop"
+    },
+    {
+      "Tag" : "blockquote",
+      "Attribute" : "cite"
+    },
+    {
+      "Tag" : "body",
+      "Attribute" : "bgcolor"
+    },
+    {
+      "Tag" : "button",
+      "Attribute" : "autofocus"
+    },
+    {
+      "Tag" : "button",
+      "Attribute" : "disabled"
+    },
+    {
+      "Tag" : "button",
+      "Attribute" : "form"
+    },
+    {
+      "Tag" : "button",
+      "Attribute" : "formaction"
+    },
+    {
+      "Tag" : "button",
+      "Attribute" : "name"
+    },
+    {
+      "Tag" : "button",
+      "Attribute" : "type"
+    },
+    {
+      "Tag" : "button",
+      "Attribute" : "value"
+    },
+    {
+      "Tag" : "canvas",
+      "Attribute" : "height"
+    },
+    {
+      "Tag" : "canvas",
+      "Attribute" : "width"
+    },
+    {
+      "Tag" : "caption",
+      "Attribute" : "align"
+    },
+    {
+      "Tag" : "col",
+      "Attribute" : "align"
+    },
+    {
+      "Tag" : "col",
+      "Attribute" : "bgcolor"
+    },
+    {
+      "Tag" : "col",
+      "Attribute" : "span"
+    },
+    {
+      "Tag" : "colgroup",
+      "Attribute" : "align"
+    },
+    {
+      "Tag" : "colgroup",
+      "Attribute" : "bgcolor"
+    },
+    {
+      "Tag" : "colgroup",
+      "Attribute" : "span"
+    },
+    {
+      "Tag" : "command",
+      "Attribute" : "checked"
+    },
+    {
+      "Tag" : "command",
+      "Attribute" : "disabled"
+    },
+    {
+      "Tag" : "command",
+      "Attribute" : "icon"
+    },
+    {
+      "Tag" : "command",
+      "Attribute" : "radiogroup"
+    },
+    {
+      "Tag" : "command",
+      "Attribute" : "type"
+    },
+    {
+      "Tag" : "del",
+      "Attribute" : "cite"
+    },
+    {
+      "Tag" : "del",
+      "Attribute" : "datetime"
+    },
+    {
+      "Tag" : "details",
+      "Attribute" : "open"
+    },
+    {
+      "Tag" : "embed",
+      "Attribute" : "height"
+    },
+    {
+      "Tag" : "embed",
+      "Attribute" : "src"
+    },
+    {
+      "Tag" : "embed",
+      "Attribute" : "type"
+    },
+    {
+      "Tag" : "embed",
+      "Attribute" : "width"
+    },
+    {
+      "Tag" : "fieldset",
+      "Attribute" : "disabled"
+    },
+    {
+      "Tag" : "fieldset",
+      "Attribute" : "form"
+    },
+    {
+      "Tag" : "fieldset",
+      "Attribute" : "name"
+    },
+    {
+      "Tag" : "font",
+      "Attribute" : "color"
+    },
+    {
+      "Tag" : "form",
+      "Attribute" : "accept"
+    },
+    {
+      "Tag" : "form",
+      "Attribute" : "accept-charset"
+    },
+    {
+      "Tag" : "form",
+      "Attribute" : "action"
+    },
+    {
+      "Tag" : "form",
+      "Attribute" : "autocomplete"
+    },
+    {
+      "Tag" : "form",
+      "Attribute" : "enctype"
+    },
+    {
+      "Tag" : "form",
+      "Attribute" : "method"
+    },
+    {
+      "Tag" : "form",
+      "Attribute" : "name"
+    },
+    {
+      "Tag" : "form",
+      "Attribute" : "novalidate"
+    },
+    {
+      "Tag" : "form",
+      "Attribute" : "target"
+    },
+    {
+      "Tag" : "hr",
+      "Attribute" : "align"
+    },
+    {
+      "Tag" : "hr",
+      "Attribute" : "color"
+    },
+    {
+      "Tag" : "html",
+      "Attribute" : "manifest"
+    },
+    {
+      "Tag" : "iframe",
+      "Attribute" : "align"
+    },
+    {
+      "Tag" : "iframe",
+      "Attribute" : "height"
+    },
+    {
+      "Tag" : "iframe",
+      "Attribute" : "name"
+    },
+    {
+      "Tag" : "iframe",
+      "Attribute" : "sandbox"
+    },
+    {
+      "Tag" : "iframe",
+      "Attribute" : "seamless"
+    },
+    {
+      "Tag" : "iframe",
+      "Attribute" : "src"
+    },
+    {
+      "Tag" : "iframe",
+      "Attribute" : "srcdoc"
+    },
+    {
+      "Tag" : "iframe",
+      "Attribute" : "width"
+    },
+    {
+      "Tag" : "img",
+      "Attribute" : "align"
+    },
+    {
+      "Tag" : "img",
+      "Attribute" : "alt"
+    },
+    {
+      "Tag" : "img",
+      "Attribute" : "border"
+    },
+    {
+      "Tag" : "img",
+      "Attribute" : "height"
+    },
+    {
+      "Tag" : "img",
+      "Attribute" : "ismap"
+    },
+    {
+      "Tag" : "img",
+      "Attribute" : "src"
+    },
+    {
+      "Tag" : "img",
+      "Attribute" : "usemap"
+    },
+    {
+      "Tag" : "img",
+      "Attribute" : "width"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "accept"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "alt"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "autocomplete"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "autofocus"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "autosave"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "checked"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "dirname"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "disabled"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "form"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "formaction"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "height"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "list"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "max"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "maxlength"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "min"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "multiple"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "name"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "pattern"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "placeholder"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "readonly"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "required"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "size"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "src"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "step"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "type"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "usemap"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "value"
+    },
+    {
+      "Tag" : "input",
+      "Attribute" : "width"
+    },
+    {
+      "Tag" : "ins",
+      "Attribute" : "cite"
+    },
+    {
+      "Tag" : "ins",
+      "Attribute" : "datetime"
+    },
+    {
+      "Tag" : "keygen",
+      "Attribute" : "autofocus"
+    },
+    {
+      "Tag" : "keygen",
+      "Attribute" : "challenge"
+    },
+    {
+      "Tag" : "keygen",
+      "Attribute" : "disabled"
+    },
+    {
+      "Tag" : "keygen",
+      "Attribute" : "form"
+    },
+    {
+      "Tag" : "keygen",
+      "Attribute" : "keytype"
+    },
+    {
+      "Tag" : "keygen",
+      "Attribute" : "name"
+    },
+    {
+      "Tag" : "label",
+      "Attribute" : "for"
+    },
+    {
+      "Tag" : "label",
+      "Attribute" : "form"
+    },
+    {
+      "Tag" : "li",
+      "Attribute" : "value"
+    },
+    {
+      "Tag" : "link",
+      "Attribute" : "href"
+    },
+    {
+      "Tag" : "link",
+      "Attribute" : "hreflang"
+    },
+    {
+      "Tag" : "link",
+      "Attribute" : "media"
+    },
+    {
+      "Tag" : "link",
+      "Attribute" : "rel"
+    },
+    {
+      "Tag" : "link",
+      "Attribute" : "sizes"
+    },
+    {
+      "Tag" : "map",
+      "Attribute" : "name"
+    },
+    {
+      "Tag" : "marquee",
+      "Attribute" : "bgcolor"
+    },
+    {
+      "Tag" : "marquee",
+      "Attribute" : "loop"
+    },
+    {
+      "Tag" : "menu",
+      "Attribute" : "type"
+    },
+    {
+      "Tag" : "meta",
+      "Attribute" : "charset"
+    },
+    {
+      "Tag" : "meta",
+      "Attribute" : "content"
+    },
+    {
+      "Tag" : "meta",
+      "Attribute" : "http-equiv"
+    },
+    {
+      "Tag" : "meta",
+      "Attribute" : "name"
+    },
+    {
+      "Tag" : "meter",
+      "Attribute" : "form"
+    },
+    {
+      "Tag" : "meter",
+      "Attribute" : "high"
+    },
+    {
+      "Tag" : "meter",
+      "Attribute" : "low"
+    },
+    {
+      "Tag" : "meter",
+      "Attribute" : "max"
+    },
+    {
+      "Tag" : "meter",
+      "Attribute" : "min"
+    },
+    {
+      "Tag" : "meter",
+      "Attribute" : "optimum"
+    },
+    {
+      "Tag" : "meter",
+      "Attribute" : "value"
+    },
+    {
+      "Tag" : "object",
+      "Attribute" : "border"
+    },
+    {
+      "Tag" : "object",
+      "Attribute" : "data"
+    },
+    {
+      "Tag" : "object",
+      "Attribute" : "form"
+    },
+    {
+      "Tag" : "object",
+      "Attribute" : "height"
+    },
+    {
+      "Tag" : "object",
+      "Attribute" : "name"
+    },
+    {
+      "Tag" : "object",
+      "Attribute" : "type"
+    },
+    {
+      "Tag" : "object",
+      "Attribute" : "usemap"
+    },
+    {
+      "Tag" : "object",
+      "Attribute" : "width"
+    },
+    {
+      "Tag" : "ol",
+      "Attribute" : "reversed"
+    },
+    {
+      "Tag" : "ol",
+      "Attribute" : "start"
+    },
+    {
+      "Tag" : "optgroup",
+      "Attribute" : "disabled"
+    },
+    {
+      "Tag" : "option",
+      "Attribute" : "disabled"
+    },
+    {
+      "Tag" : "option",
+      "Attribute" : "selected"
+    },
+    {
+      "Tag" : "option",
+      "Attribute" : "value"
+    },
+    {
+      "Tag" : "output",
+      "Attribute" : "for"
+    },
+    {
+      "Tag" : "output",
+      "Attribute" : "form"
+    },
+    {
+      "Tag" : "output",
+      "Attribute" : "name"
+    },
+    {
+      "Tag" : "param",
+      "Attribute" : "name"
+    },
+    {
+      "Tag" : "param",
+      "Attribute" : "value"
+    },
+    {
+      "Tag" : "progress",
+      "Attribute" : "form"
+    },
+    {
+      "Tag" : "progress",
+      "Attribute" : "max"
+    },
+    {
+      "Tag" : "progress",
+      "Attribute" : "value"
+    },
+    {
+      "Tag" : "q",
+      "Attribute" : "cite"
+    },
+    {
+      "Tag" : "script",
+      "Attribute" : "async"
+    },
+    {
+      "Tag" : "script",
+      "Attribute" : "charset"
+    },
+    {
+      "Tag" : "script",
+      "Attribute" : "defer"
+    },
+    {
+      "Tag" : "script",
+      "Attribute" : "language"
+    },
+    {
+      "Tag" : "script",
+      "Attribute" : "src"
+    },
+    {
+      "Tag" : "script",
+      "Attribute" : "type"
+    },
+    {
+      "Tag" : "select",
+      "Attribute" : "autofocus"
+    },
+    {
+      "Tag" : "select",
+      "Attribute" : "disabled"
+    },
+    {
+      "Tag" : "select",
+      "Attribute" : "form"
+    },
+    {
+      "Tag" : "select",
+      "Attribute" : "multiple"
+    },
+    {
+      "Tag" : "select",
+      "Attribute" : "name"
+    },
+    {
+      "Tag" : "select",
+      "Attribute" : "required"
+    },
+    {
+      "Tag" : "select",
+      "Attribute" : "size"
+    },
+    {
+      "Tag" : "source",
+      "Attribute" : "media"
+    },
+    {
+      "Tag" : "source",
+      "Attribute" : "src"
+    },
+    {
+      "Tag" : "source",
+      "Attribute" : "type"
+    },
+    {
+      "Tag" : "style",
+      "Attribute" : "media"
+    },
+    {
+      "Tag" : "style",
+      "Attribute" : "scoped"
+    },
+    {
+      "Tag" : "style",
+      "Attribute" : "type"
+    },
+    {
+      "Tag" : "table",
+      "Attribute" : "align"
+    },
+    {
+      "Tag" : "table",
+      "Attribute" : "bgcolor"
+    },
+    {
+      "Tag" : "table",
+      "Attribute" : "border"
+    },
+    {
+      "Tag" : "table",
+      "Attribute" : "summary"
+    },
+    {
+      "Tag" : "tbody",
+      "Attribute" : "align"
+    },
+    {
+      "Tag" : "tbody",
+      "Attribute" : "bgcolor"
+    },
+    {
+      "Tag" : "td",
+      "Attribute" : "align"
+    },
+    {
+      "Tag" : "td",
+      "Attribute" : "bgcolor"
+    },
+    {
+      "Tag" : "td",
+      "Attribute" : "colspan"
+    },
+    {
+      "Tag" : "td",
+      "Attribute" : "headers"
+    },
+    {
+      "Tag" : "td",
+      "Attribute" : "rowspan"
+    },
+    {
+      "Tag" : "textarea",
+      "Attribute" : "autofocus"
+    },
+    {
+      "Tag" : "textarea",
+      "Attribute" : "cols"
+    },
+    {
+      "Tag" : "textarea",
+      "Attribute" : "dirname"
+    },
+    {
+      "Tag" : "textarea",
+      "Attribute" : "disabled"
+    },
+    {
+      "Tag" : "textarea",
+      "Attribute" : "form"
+    },
+    {
+      "Tag" : "textarea",
+      "Attribute" : "maxlength"
+    },
+    {
+      "Tag" : "textarea",
+      "Attribute" : "name"
+    },
+    {
+      "Tag" : "textarea",
+      "Attribute" : "placeholder"
+    },
+    {
+      "Tag" : "textarea",
+      "Attribute" : "readonly"
+    },
+    {
+      "Tag" : "textarea",
+      "Attribute" : "required"
+    },
+    {
+      "Tag" : "textarea",
+      "Attribute" : "rows"
+    },
+    {
+      "Tag" : "textarea",
+      "Attribute" : "wrap"
+    },
+    {
+      "Tag" : "tfoot",
+      "Attribute" : "align"
+    },
+    {
+      "Tag" : "tfoot",
+      "Attribute" : "bgcolor"
+    },
+    {
+      "Tag" : "th",
+      "Attribute" : "align"
+    },
+    {
+      "Tag" : "th",
+      "Attribute" : "bgcolor"
+    },
+    {
+      "Tag" : "th",
+      "Attribute" : "colspan"
+    },
+    {
+      "Tag" : "th",
+      "Attribute" : "headers"
+    },
+    {
+      "Tag" : "th",
+      "Attribute" : "rowspan"
+    },
+    {
+      "Tag" : "th",
+      "Attribute" : "scope"
+    },
+    {
+      "Tag" : "thead",
+      "Attribute" : "align"
+    },
+    {
+      "Tag" : "time",
+      "Attribute" : "datetime"
+    },
+    {
+      "Tag" : "time",
+      "Attribute" : "pubdate"
+    },
+    {
+      "Tag" : "tr",
+      "Attribute" : "align"
+    },
+    {
+      "Tag" : "tr",
+      "Attribute" : "bgcolor"
+    },
+    {
+      "Tag" : "track",
+      "Attribute" : "default"
+    },
+    {
+      "Tag" : "track",
+      "Attribute" : "kind"
+    },
+    {
+      "Tag" : "track",
+      "Attribute" : "label"
+    },
+    {
+      "Tag" : "track",
+      "Attribute" : "src"
+    },
+    {
+      "Tag" : "track",
+      "Attribute" : "srclang"
+    },
+    {
+      "Tag" : "video",
+      "Attribute" : "autoplay"
+    },
+    {
+      "Tag" : "video",
+      "Attribute" : "buffered"
+    },
+    {
+      "Tag" : "video",
+      "Attribute" : "controls"
+    },
+    {
+      "Tag" : "video",
+      "Attribute" : "height"
+    },
+    {
+      "Tag" : "video",
+      "Attribute" : "loop"
+    },
+    {
+      "Tag" : "video",
+      "Attribute" : "poster"
+    },
+    {
+      "Tag" : "video",
+      "Attribute" : "preload"
+    },
+    {
+      "Tag" : "video",
+      "Attribute" : "src"
+    },
+    {
+      "Tag" : "video",
+      "Attribute" : "width"
+    }
+  ]
+}
