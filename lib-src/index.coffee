@@ -27,6 +27,9 @@ h = htmlEscape = do ->
 beginningOfLine = /^/mg
 emptyLines = /^\s+$/mg
 
+parseElement = (element) ->
+  tag = element[0]
+  "<#{tag}/>"
+
 module.exports = (input) ->
-  # smal.Parser().parse(input)
-  ''
+  (parseElement el for el in smal.Parser().parse(input)).join ''

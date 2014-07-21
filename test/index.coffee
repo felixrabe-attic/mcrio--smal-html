@@ -20,3 +20,6 @@ describe 'smal-html', ->
 
   it 'should accept empty input', ->
     eq '', ''
+
+  it 'should accept single element', ->
+    eq 'element', '<element/>'
