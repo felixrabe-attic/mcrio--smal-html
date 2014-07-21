@@ -38,6 +38,13 @@ describe 'smal-html', ->
       foo "bar" "baz"
     ''', '<foo>barbaz</foo>'
 
-  it 'should accept attributes'
+  it 'should accept attributes', ->
+    eq '''
+      img
+        src "image.png"
+        width "600"
+        height "400"
+    ''', '<img src="image.png" width="600" height="400"/>'
+
   it 'should accept non-self-closing empty elements: <p>'
   it 'should accept non-self-closing empty elements: <script>'
