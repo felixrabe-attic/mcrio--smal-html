@@ -27,9 +27,30 @@ h = htmlEscape = do ->
 beginningOfLine = /^/mg
 emptyLines = /^\s+$/mg
 
+subIsString = (sub) ->
+  sub.length == 1
+
+subIsAttribute = (sub) ->
+  false
+
+parseSub = (sub) ->
+  if subIsString sub
+    sub[0]
+  else
+    "\n  #{JSON.stringify sub}\n"
+
+elementIsEmpty = (element) ->
+  element[1].length == 0
+
 parseElement = (element) ->
   tag = element[0]
-  "<#{tag}/>"
+  if elementIsEmpty element
+    "<#{tag}/>"
+  else
+    s = "<#{tag}>"
+    s += (parseSub sub for sub in element[1]).join ''
+    s += "</#{tag}>"
+    s
 
 module.exports = (input) ->
   (parseElement el for el in smal.Parser().parse(input)).join ''
