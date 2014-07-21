@@ -29,3 +29,8 @@ describe 'smal-html', ->
       foo
       bar
     ''', '<foo/><bar/>'
+
+  it 'should accept strings'
+  it 'should accept attributes'
+  it 'should accept non-self-closing empty elements: <p>'
+  it 'should accept non-self-closing empty elements: <script>'
