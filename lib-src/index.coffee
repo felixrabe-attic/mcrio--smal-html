@@ -31,9 +31,14 @@ emptyLines = /^\s+$/mg
 subIsString = (sub) ->
   sub.length == 1
 
+subIsElement = (sub) ->
+  sub.length == 2
+
 parseOtherSub = (sub) ->
   if subIsString sub
     sub[0]
+  else if subIsElement sub
+    parseElement sub
   else
     "\n  #{JSON.stringify sub}\n"
 
