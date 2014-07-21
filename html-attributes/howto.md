@@ -21,3 +21,5 @@
 - Proceded as per the undo history extracted in openrefine-history.json.
 
 - Exported (via 'Templating') as a standard JSON file to html-attributes.json.
+
+- Run convert-json.coffee to generate html-attributes-by-tag.json.
