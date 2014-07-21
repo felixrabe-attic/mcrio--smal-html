@@ -70,11 +70,15 @@ parseElementSubs = (element) ->
 attributesToString = (attributes) ->
   (" #{a[0]}=\"#{htmlEscape a[1]}\"" for a in attributes).join ''
 
+nonSelfClosing = [
+  'p'
+]
+
 parseElement = (element) ->
   tag = element[0]
   [attributes, other] = parseElementSubs element
   attrString = attributesToString attributes
-  if other.length == 0
+  if other.length == 0 and tag not in nonSelfClosing
     "<#{tag}#{attrString}/>"
   else
     "<#{tag}#{attrString}>" + other.join('') + "</#{tag}>"

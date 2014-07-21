@@ -51,5 +51,9 @@ describe 'smal-html', ->
       p (class "foo") "Doing " (em "great") " around here!"
     ''', '<p class="foo">Doing <em>great</em> around here!</p>'
 
-  it 'should accept non-self-closing empty elements: <p>'
+  it 'should accept non-self-closing empty elements: <p>', ->
+    eq '''
+      p
+    ''', '<p></p>'
+
   it 'should accept non-self-closing empty elements: <script>'
