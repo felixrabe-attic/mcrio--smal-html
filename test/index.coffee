@@ -23,3 +23,9 @@ describe 'smal-html', ->
 
   it 'should accept single element', ->
     eq 'element', '<element/>'
+
+  it 'should accept two successive elements', ->
+    eq '''
+      foo
+      bar
+    ''', '<foo/><bar/>'
