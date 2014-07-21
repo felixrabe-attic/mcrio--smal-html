@@ -56,4 +56,7 @@ describe 'smal-html', ->
       p
     ''', '<p></p>'
 
-  it 'should accept non-self-closing empty elements: <script>'
+  it 'should accept non-self-closing empty elements: <script>', ->
+    eq '''
+      script (src "app.js")
+    ''', '<script src="app.js"></script>'

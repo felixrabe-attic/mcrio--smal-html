@@ -72,6 +72,7 @@ attributesToString = (attributes) ->
 
 nonSelfClosing = [
   'p'
+  'script'
 ]
 
 parseElement = (element) ->
